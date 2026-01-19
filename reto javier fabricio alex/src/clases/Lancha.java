@@ -18,8 +18,10 @@ public class Lancha extends Barco{
 
 	@Override
 	public String toString() {
-		return "Lancha [cubierta=" + cubierta + "]";
+		return "Lancha [cubierta=" + cubierta + ", nombre=" + nombre + ", capacidadCombustible=" + capacidadCombustible
+				+ ", motor=" + motor + "]";
 	}
+
 	
 
 }

@@ -4,7 +4,7 @@ public class Catamaran extends Barco{
 	//Catamaran
 	protected Motor motorSecundario;
 	@Override
-	protected double calcularAutonomia() {
+	public double calcularAutonomia() {
 		return (capacidadCombustible/motor.consumo + capacidadCombustible/motorSecundario.consumo)/2;
 	}
 	public Catamaran(String nombre, double capacidadCombustible, Motor motor, Motor motorSecundario) {
@@ -19,7 +19,8 @@ public class Catamaran extends Barco{
 	}
 	@Override
 	public String toString() {
-		return "Catamaran [motorSecundario=" + motorSecundario + "]";
+		return "Catamaran [motorSecundario=" + motorSecundario + ", nombre=" + nombre + ", capacidadCombustible="
+				+ capacidadCombustible + ", motor=" + motor + "]";
 	}
 	
 }

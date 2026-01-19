@@ -18,7 +18,10 @@ public class Yate extends Barco {
 
 	@Override
 	public String toString() {
-		return "Yate [camarotes=" + camarotes + "]";
+		return "Yate [camarotes=" + camarotes + ", nombre=" + nombre + ", capacidadCombustible=" + capacidadCombustible
+				+ ", motor=" + motor + "]";
 	}
+
+
 	
 }

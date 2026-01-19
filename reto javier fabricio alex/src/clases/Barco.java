@@ -4,7 +4,8 @@ public class Barco{
 	protected String nombre;
 	protected double capacidadCombustible;
 	protected Motor motor;
-	protected double calcularAutonomia() {
+	
+	public double calcularAutonomia() {
 		return capacidadCombustible/motor.consumo;
 	}
 	public Barco(String nombre, double capacidadCombustible, Motor motor) {
@@ -35,7 +36,5 @@ public class Barco{
 	public String toString() {
 		return "Barco [nombre=" + nombre + ", capacidadCombustible=" + capacidadCombustible + ", motor=" + motor + "]";
 	}
-	
-	
 	
 	}
