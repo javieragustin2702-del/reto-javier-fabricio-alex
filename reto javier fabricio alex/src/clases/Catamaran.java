@@ -1,6 +1,7 @@
 package clases;
 
 public class Catamaran extends Barco{
+	//Catamaran
 	protected Motor motorSecundario;
 	@Override
 	protected double calcularAutonomia() {
