@@ -36,4 +36,6 @@ public class Barco{
 		return "Barco [nombre=" + nombre + ", capacidadCombustible=" + capacidadCombustible + ", motor=" + motor + "]";
 	}
 	
+	
+	
 	}
